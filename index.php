@@ -18,9 +18,9 @@
     </head>
 
     <body>
-        //~ Main contient tout ce qu'il y aura dans le body//
+        <!-- Main contient tout ce qu'il y aura dans le body-->
         <main class="container"> 
-            <section class="presentation">//& Zone règles du jeu//
+            <section class="presentation"> <!--Zone règles du jeu-->
                 <div class="left-side">
                     <h2>Présentation :</h2>
 
@@ -43,12 +43,12 @@
                     <img src="" alt="decor">
                 </div>
             </section>
-            <section class="game-section">//& Zone de Jeu //
-                <div class="fantomette"> //todo  thais popup sur fantomette//
-                    <img id="btn-popup" src="" alt="fantomette">
+            <section class="game-section"><!-- Zone de Jeu -->
+                <div class="fantomette"> <!-- todo  thais popup sur fantomette -->
+                    <img id="btn-popup" src="./assets/img/svg/ghost.svg" alt="fantomette">
                 </div>
                 <div class="spooky-game">
-                    //todo Insérer le jeu via webGL//
+                    <!-- todo Insérer le jeu via webGL-->
                     
                 </div>
             </section>   
@@ -61,8 +61,7 @@
 
                 <p> </p>
             </div>
-        </div>
         </main>
-
+    <script src="./assets/script/fantomette.js"></script>
     </body>
 </html>

@@ -1,4 +1,28 @@
+:root{
+    --prune: #4F0851;
 
+}
+/*~ Section présentation */
+.left-side > h2,p{
+    color: var(--prune);
+}
+
+/*~ Game-section */
+
+.game-section{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--prune);
+}
+.fantomette{
+    width: 10%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+#btn-popup{
+    width: 100%;
+    cursor: pointer;
+}
 
 
 /*~ About the Fantomette POPUP */
@@ -18,7 +42,7 @@
 .content-popup{
     width: 500px;
     height: 300px;
-    background-color: "cccfff";
+    background-color: #cccfff;
     border-radius: 4px;
     position: relative;
 
@@ -28,7 +52,7 @@
     align-items: center;
 }
 .close{
-    color: darkgrey;
+    color: var(--prune);
     position: absolute;
     top: 0;
     right: 10px;
