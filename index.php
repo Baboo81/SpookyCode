@@ -18,9 +18,9 @@
     </head>
 
     <body>
-        //~ Main contient tout ce qu'il y aura dans le body//
+        <!-- Main contient tout ce qu'il y aura dans le body-->
         <main class="container"> 
-            <section class="presentation">//& Zone règles du jeu//
+            <section class="presentation"> <!--Zone règles du jeu-->
                 <div class="left-side">
                     <h2>Spooky Code - Instructions</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cum blanditiis accusamus. Ea dolor natus unde sit molestias vero! Maiores officiis aliquam nisi unde eveniet accusamus omnis maxime perspiciatis non!
@@ -31,25 +31,25 @@
                     <img src="" alt="decor">
                 </div>
             </section>
-            <section class="game-section">//& Zone de Jeu //
-                <div class="fantomette"> //todo  thais popup sur fantomette//
-                    <img id="btn-popup" src="" alt="fantomette">
+            <section class="game-section"><!-- Zone de Jeu -->
+                <div class="fantomette"> <!-- todo  thais popup sur fantomette -->
+                    <img id="btn-popup" src="./assets/img/svg/ghost.svg" alt="fantomette">
                 </div>
                 <div class="spooky-game">
-                    //todo Insérer le jeu via webGL//
+                    <!-- todo Insérer le jeu via webGL-->
                     
                 </div>
             </section>   
             
-        //~ Zone POPUP //
-        <div class="bg-popup">
-            <div class="content-popup">
-                <div id="close"class="close">+</div>
-                <h3>Fantomette tells you everything about special characters</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, iste. Beatae hic, tenetur fuga libero voluptate minima ut nam pariatur omnis nihil perferendis dicta ea saepe similique labore facere alias!</p>
+        <!-- Zone POPUP -->
+            <div class="bg-popup">
+                <div class="content-popup">
+                    <div id="close"class="close">+</div>
+                    <h3>Fantomette tells you everything about special characters</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, iste. Beatae hic, tenetur fuga libero voluptate minima ut nam pariatur omnis nihil perferendis dicta ea saepe similique labore facere alias!</p>
+                </div>
             </div>
-        </div>
         </main>
-
+    <script src="./assets/script/fantomette.js"></script>
     </body>
 </html>
