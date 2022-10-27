@@ -65,19 +65,39 @@
                 </div>
             </section> 
             <section class="about-us">
-                <div class="left-side">
+                <div class="left-side-bis">
                     <div>
                         <h2>A propos de nous</h2>
                     </div>
                     <div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quasi consectetur dolor eaque rem amet in, eveniet reiciendis perspiciatis odit incidunt consequuntur mollitia nobis est vel corrupti beatae placeat omnis!</p>
                     </div>
-                    <div>
-                        <img src="" alt="avatarAlina" title="Alina L.">
-                        <img src="" alt="avatarColine" title="Coline P.">
-                        <img src="" alt="avatarZahra" title="Zahra C.">
-                        <img src="" alt="avatarChristel" title="Christel P.">
-                        <img src="" alt="avatarThais" title="Thaïs S.">
+                    <div class="avatar">
+                        <div>
+                            <div>
+                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarAlina" title="Alina L.">
+                            
+                            </div>
+                            <div>
+                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarColine" title="Coline P.">
+                           
+                            </div>
+                            <div>
+                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarZahra" title="Zahra C.">
+                            
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarChristel" title="Christel P.">
+                            
+                            </div>
+                            <div>
+                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarThais" title="Thaïs S.">
+                            
+                            </div>
+                        </div>    
+                            
                     </div>
                 </div>
                 <div class="right-side">
