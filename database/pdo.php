@@ -1,5 +1,5 @@
 <?php
-
+include_once "dbConst.php";
 //Connexion à la DB
 
 try {
@@ -18,9 +18,4 @@ try {
     die();
 
 }
-
-function createNewUser() {
-    
-    
-
-}
+?>
