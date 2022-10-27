@@ -1,0 +1,38 @@
+
+
+
+/*~ About the Fantomette POPUP */
+.bg-popup{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 , 0.7);
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.content-popup{
+    width: 500px;
+    height: 300px;
+    background-color: "cccfff";
+    border-radius: 4px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.close{
+    color: darkgrey;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    transform: rotate(45deg);
+}
