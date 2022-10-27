@@ -61,7 +61,7 @@
                 </div>
             </section>   
             
-        //~ Zone POPUP //
+        <!-- Zone POPUP -->
         <div class="bg-popup">
             <div class="content-popup">
                 <div id="close"class="close">+</div>
