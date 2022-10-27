@@ -12,8 +12,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/styles1.css">
-        <link rel="stylesheet" href="./assets/css/styles2.css">
+        
         <link rel="stylesheet" href="./assets/css/styles3.css">
         <title>HomePage</title>
     </head>
@@ -59,7 +60,31 @@
                     <!-- todo Insérer le jeu via webGL-->
                     
                 </div>
-            </section>   
+                <div class="div-scores">
+                    <!-- choper les scores depuis la db - PHP -->
+                </div>
+            </section> 
+            <section class="about-us">
+                <div class="left-side">
+                    <div>
+                        <h2>A propos de nous</h2>
+                    </div>
+                    <div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quasi consectetur dolor eaque rem amet in, eveniet reiciendis perspiciatis odit incidunt consequuntur mollitia nobis est vel corrupti beatae placeat omnis!</p>
+                    </div>
+                    <div>
+                        <img src="" alt="avatarAlina" title="Alina L.">
+                        <img src="" alt="avatarColine" title="Coline P.">
+                        <img src="" alt="avatarZahra" title="Zahra C.">
+                        <img src="" alt="avatarChristel" title="Christel P.">
+                        <img src="" alt="avatarThais" title="Thaïs S.">
+                    </div>
+                </div>
+                <div class="right-side">
+                    <img src="./assets/img/spookyDecor-Recovered.png" alt="">
+                </div>
+
+            </section>  
             
         <!-- Zone POPUP -->
         <div class="bg-popup">

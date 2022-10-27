@@ -2,14 +2,19 @@
     --prune: #4F0851;
 
 }
-/*~ Concernant le container */
+/*~ Concernant le container ***************/
 .container{
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
-/*~ Section présentation */
+/*~ Section présentation ******************/
 .presentation{
     width: 100%;
-    height: 75vh;
+    height: 60vh;
    
 
     display: flex;
@@ -17,12 +22,11 @@
     align-items: stretch;
 }
 /*& Concernant la partie left */
-.left-side > h2,p{
-    color: var(--prune);
-    text-align: center;
-}
+
 .left-side{
     width: 30%;
+    height: 60vh;
+    top: 20vh;
     padding-left: 5%;
     
     display: flex;
@@ -31,6 +35,14 @@
     align-items: center;
 }
 
+.left-side > h2,p{
+    color: var(--prune);
+    text-align: center;
+}
+.left-side > h2{
+    font-weight: bold;
+    text-decoration: wavy;
+}
 /*& Concernant la partie right (img) */
 
 .right-side{
@@ -47,12 +59,16 @@
     padding: 2%;
 }
 
-/*~ Game-section */
+/*~ Game-section *************************/
 
 .game-section{
     width: 100%;
     height: 100vh;
     background-color: var(--prune);
+
+    display: flex;
+    flex-direction: column;
+
 }
 .fantomette{
     width: 10%;
@@ -65,13 +81,13 @@
 }
 
 
-/*~ About the Fantomette POPUP */
+/*~ About the Fantomette POPUP ************/
 .bg-popup{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0 , 0.7);
     position: absolute;
-    top: 0;
+    top: 100vh;
 
     display: flex;
     justify-content: center;
@@ -99,4 +115,28 @@
     font-size: 2rem;
     cursor: pointer;
     transform: rotate(45deg);
+}
+/*& Concernant la div où l'on insère le jeu */
+.spooky-game{
+    border: white 2px solid;
+    width: 70%;
+    height: 60vh;
+    align-self: center;
+}
+/*& Concernant la div d'affichage des scores*/
+.div-scores{
+    width: 80%;
+    height: 30vh;
+    border: solid 2px white;
+    align-self: center;
+}
+
+/*~ Concernant la section ABOUT US ********/
+.about-us{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
