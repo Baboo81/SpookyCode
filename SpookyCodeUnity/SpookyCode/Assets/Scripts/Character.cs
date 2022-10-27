@@ -14,7 +14,7 @@ public class Character : MonoBehaviour
         get { return _points; }
         set {
             _points = value;
-            scoreText.text = $"Points x {_points}";
+            scoreText.text = $"POINTS X {_points}";
         }
     }
 
