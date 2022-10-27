@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="../assets/img/logo-green.png" alt=""id="logo">
+        <img src="../assets/img/logoSpooky.svg" alt=""id="logo">
         <ul class="ul-header">
             <li>Jeu</li>
             <li>About us</li>
@@ -18,8 +18,15 @@
 
     <div class="container">
 
+
     </div>
 
-    
+    <footer>
+
+     <div class="image"><img src="../assets/img/logoI3.png" alt="" id="logo-I3"></div>
+
+     <p class="mentions">Mentions legales</p>
+
+    </footer>
 </body>
 </html>
