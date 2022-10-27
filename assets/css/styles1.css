@@ -5,6 +5,7 @@
 
 header{
     width: 100%;
+    height: 15vh;
     background-color: #4F0851;
     display: flex;
     flex-direction: row;
@@ -102,4 +103,5 @@ a{
     margin-left: 10px;
     cursor: pointer;
 }
+
 
