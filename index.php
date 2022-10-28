@@ -100,7 +100,7 @@ include './views/header.php';
                     <p>en seulement trois jours un site web servant de support au jeu Spooky Code.</p>
                 </div>
                 <div class="avatar">
-                    <div>
+                    <!-- <div> -->
                         <div>
                             <div>
                                 <img id="allina" class="img-avatar" src="./assets/img/avatarAllina.png" alt="avatarAlina" title="Alina L.">
@@ -126,7 +126,7 @@ include './views/header.php';
                             </div>
                         </div>
 
-                    </div>
+                    <!-- </div> -->
                 </div>
 
                 <!-- Zone POPUP -->
@@ -148,8 +148,8 @@ include './views/header.php';
         <div class="avat-popup">
             <div class="content-popup">
                 <div id="closeAvat" class="closeAvat">+</div>
-                <h2>Allina Levchenko</h2>
-                <h3>Allina@gmail.com</h3>
+                <h2>Alina Levchenko</h2>
+                <h3>Alina@gmail.com</h3>
 
             </div>
         </div>
