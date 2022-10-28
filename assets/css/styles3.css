@@ -2,6 +2,11 @@
     --prune: #4F0851;
 
 }
+@font-face {
+    font-family: 'Spooky Webbie';
+    src: url('../fonts/Spooky Webbie.ttf');
+}
+
 /*~ Concernant le container ***************/
 .container{
     width: 100%;
@@ -41,7 +46,7 @@
 }
 .left-side > h2{
     font-weight: bold;
-    text-decoration: wavy;
+    font-family: Spooky Webbie;
 }
 /*& Concernant la partie right (img) */
 
