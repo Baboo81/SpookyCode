@@ -7,6 +7,6 @@ avatAllina.addEventListener('click' , function(){
 
 const closeAvat = document.getElementById('closeAvat');
 
-close.addEventListener('click' , function(){
+closeAvat.addEventListener('click' , function(){
     document.querySelector('.avat-popup').style.display = 'none';
 });
