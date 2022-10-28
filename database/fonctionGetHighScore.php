@@ -7,7 +7,7 @@ include_once "pdo.php";
 function GetHighScore($pdo) {
     try {
     //requête à la DB pour vérifier si l'username existe déjà
-        $sql="SELECT Name, score FROM scores ORDER BY score LIMIT 10;";
+        $sql="SELECT Name, score FROM scores ORDER BY score DESC LIMIT 10;";
         $stmt = $pdo -> prepare($sql);
         $stmt -> execute();
 
