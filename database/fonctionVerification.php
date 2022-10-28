@@ -2,7 +2,7 @@
 
 include_once "pdo.php";
 include "fonctionUserCreation.php";
-
+include "fonctionAddScore.php";
 //vérifie si l'user existe déjà ou pas dans la DB
 function Verification($pdo, $userName) {
     try {
@@ -16,7 +16,8 @@ function Verification($pdo, $userName) {
         $result = $stmt -> fetchAll(PDO::FETCH_ASSOC);
         // //converti l'array en string
         // $json = json_encode($result);
-        // return $json;
+        // return $json
+        //var_dump($result);
         return $result;
     }
     catch (PDOException $err) {
@@ -28,7 +29,7 @@ function Verification($pdo, $userName) {
             $logFile = "./error.log";
         
             // Enregistrement du message d'erreur dans le fichier log. 3 pour signifier inscription dans le fichier.
-            error_log($errorMessage, 3, $logFile);
+            error_log($errorMessage."\r\n", 3, $logFile);
         
             die();
     }
@@ -37,15 +38,17 @@ function Verification($pdo, $userName) {
 //Si le user n'existe pas : le créer. (la fonction de création appellera la fonction d'ajout de score)
 
 $name = $_GET['Name'];
+
 $result = Verification($connexion, $name); //penser à le mettre en commentaire par la suite.
 // print $result;
-if (count($result)>0){
-    print "déjà là";
-    addScore($pdo,1500,$name);
+if (!empty($result)){
+    //print "déjà là";
+    addScore($connexion,$score,$name);
 }
 //si le user existe : ajouter directement son score aux existants.
 else {
-    print "ajout";
-    userCreation($pdo,$name);
+    //print "ajout";
+    userCreation($connexion,$name);
+    addScore($connexion,$score,$name);
 }
 ?>

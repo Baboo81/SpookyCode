@@ -28,7 +28,7 @@ function addScore($pdo, $score, $name)
         $logFile = "./error.log";
 
         // Enregistrement du message d'erreur dans le fichier log. 3 pour signifier inscription dans le fichier.
-        error_log($errorMessage, 3, $logFile);
+        error_log($errorMessage."\r\n", 3, $logFile);
 
         die();
     }
@@ -36,5 +36,5 @@ function addScore($pdo, $score, $name)
 $name = $_GET["Name"];
 $score = $_GET["score"];
 
-print addScore($connexion, $score, $name);
+//print addScore($connexion, $score, $name);
 ?>
