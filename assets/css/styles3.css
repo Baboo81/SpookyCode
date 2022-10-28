@@ -215,6 +215,14 @@ ul li {
     align-self: center;
 }
 /*& Concernant le login **************/
+form{
+    /* text-align: center; */
+    padding-top: 2%;
+}
+input{
+    width: 20%;
+    height: 35%;
+}
 .login{
     color: white;
     font-size: 1.5rem;
@@ -222,10 +230,10 @@ ul li {
 }
 /*& Concernant la div d'affichage des scores*/
 .div-scores{
-    width: 80%;
+    width: 60%;
     height: 30vh;
     border: solid 2px white;
-    align-self: center;
+    align-self: flex-end;
 }
 
 /*& Concernant la section ABOUT US ********/
