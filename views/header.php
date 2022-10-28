@@ -5,8 +5,8 @@
         </div>
         <div class="menu-nav">
             <ul class="ul-header">
-                <li class="jeu">Jeu</li>
-                <li>A propos de nous</li>
+                <li class="jeu"><a href="#jeuS">Jeu</a></li>
+                <li><a href="#aPropos">A propos de nous</a></li>
             </ul>
         </div>
         

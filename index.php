@@ -68,6 +68,7 @@ include './views/header.php';
                     </div>
                 </div>
             <div class="spooky-game">
+                <a name="jeuS"></a>
                 <!-- todo Insérer le jeu via webGL-->
                 <div id="unity-container" class="unity-desktop">
                     <canvas id="unity-canvas" width=960 height=600></canvas>
@@ -97,6 +98,7 @@ include './views/header.php';
             </div>
         </section>
         <section class="about-us">
+        <a name="aPropos"></a>
             <div class="left-side-bis">
                 <div>
                     <h2>A propos de nous</h2>

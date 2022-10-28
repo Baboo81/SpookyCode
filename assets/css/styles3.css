@@ -72,8 +72,12 @@ ul li {
     margin-left: 300px;
     
 }*/
-.ul-header li:hover{
+.ul-header li a:hover{
      color: #ffa500;
+    cursor: pointer;
+}
+.ul-header a{
+    color: white;
     cursor: pointer;
 }
 /** PARTIE THAIS ****************************************************/
