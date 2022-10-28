@@ -1,18 +1,20 @@
-<div class ="login">
 
-            <h1>Connectez-vous à votre compte :</h1>
+    
+        <form name="login" action="">
+
+            <div class ="login">
+
+                <h2>Connectez-vous à votre compte :</h2>
 
 
-            <form name="login">
-              
-                <label for = "input">Veuillez encoder votre nom :</label><br />
-                <input name = "Nom"  type="text"><br />
-                <label for = "input">Mot de passe:</label><br />
-                <input name = "password" type = "password">
-                <br />
+                    <label for = "input">Veuillez encoder votre pseudo :</label><br />
+                    <input name = "Nom"  type="text"><br />
+                    <br />
 
-            <div class ="button">
-
-                <button onclick="validez()">Validez</button>
+                <button class="btn" onclick="validez()">Submit</button>
 
             </div>
+
+        </form>
+    
+ 
