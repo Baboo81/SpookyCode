@@ -59,6 +59,14 @@ include './views/header.php';
                 <!-- todo  thais popup sur fantomette -->
                 <img id="btn-popup" src="./assets/img/svg/ghost.svg" alt="fantomette">
             </div>
+            <div class="bg-popup">
+                    <div class="content-popup">
+                        <div id="close" class="close">+</div>
+                        <h3>Besoin d'un coup de pouce ? Fantomette est là !</h3>
+
+                        <p>Les caractères spéciaux sont des caractères réservés par le langage pour avoir un sens syntaxique. Ils ne peuvent généralement pas être utilisés dans les identificateurs (c'est-à-dire les noms de variables ou de fonctions). Par exemple, les opérateurs mathématiques sont des caractères spéciaux dans la plupart des langues : +, -, *, =, etc </p>
+                    </div>
+                </div>
             <div class="spooky-game">
                 <!-- todo Insérer le jeu via webGL-->
                 <div id="unity-container" class="unity-desktop">
@@ -101,6 +109,7 @@ include './views/header.php';
                     <p>Grâce à une excellente cohésion de groupe nous sommes parvenues à mettre sur pied</p>
                     <p>en seulement trois jours un site web servant de support au jeu Spooky Code.</p>
                 </div>
+                
                 <div class="avatar">
                     <!-- <div> -->
                         <div>
@@ -131,15 +140,6 @@ include './views/header.php';
                     <!-- </div> -->
                 </div>
 
-                <!-- Zone POPUP -->
-                <div class="bg-popup">
-                    <div class="content-popup">
-                        <div id="close" class="close">+</div>
-                        <h3>Besoin d'un coup de pouce ? Fantomette est là !</h3>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consectetur enim facilis est, velit dolores explicabo temporibus consequuntur distinctio dolorem voluptatem. Maxime eius corrupti, a vero veritatis aspernatur sunt. Illo. </p>
-                    </div>
-                </div>
             </div>
             <div class="right-side">
                 <img src="./assets/img/spookyDecor-Recovered.png" alt="">
