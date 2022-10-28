@@ -1,9 +1,6 @@
 <?php
 
 include './views/header.php';
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -38,31 +35,17 @@ include './views/header.php';
                     </div>
                     <div>
                         <p>Le jeu se déroule sur une map 3D, le joueur contrôle un personnage (Fantomette).</p>
-                        <p>Le but du jeu est de collecter des instructions sous forme de code, chaque fois</p>
-                        <p>que le personnage touche une instruction il gagne des points.</p>
+                        <p>Dans chaque niveau, le joueur doit trouver les instructions de code</p>
+                        <p>et les completer afin d'évoluer dans le jeu</p>
                         <p>Les points du joueur seront sauvegardés dans un tableau des scores,</p>
-                        <p>Les scores figurants dans ce tableau seront les meilleurs scores de chaques joueurs.</p>
+                        <p>les scores figurants dans ce tableau seront les meilleurs scores de chaques joueurs.</p>
                     </div>
                     <!-- <div class="btn-start">
                         <button id="btn-start">Start</button>
                     </div> -->
                     
                 </div>
-                <div>
-                    <p>Dans le cadre du hackathon 2022, les différentes promotions; WAD, GAME et WEB du centre de formation Interface3 se sont</p>
-                    <p>associées en 7 équipes pour créer un site présentant un jeu.</p>
-                    <p>Le hackaton se déroule sur trois jours, les collaborateurs de chaque groupes devront interagir de façon éfficace</p>
-                    <p>et exploiter au mieux les connaissances de tout un chacun.</p>
-                </div>
-                <div>
-                    <h2>Règles du jeu :</h2>
-                </div>
-                <div>
-                    <p>Le jeu se déroule sur une map 3D, le joueur contrôle un personnage (Fantomette).</p>
-                    <p>Le but du jeu est de collecter des instructions sous forme de code, chaque fois</p>
-                    <p>que le personnage touche une instruction il gagne des points.</p>
-                    <p>Les points du joueur seront sauvegardés dans un tableau des scores,</p>
-                    <p>Les scores figurants dans ce tableau seront les meilleurs scores de chaques joueurs.</p>
+                
                 <div class="spooky-game">
                     <!-- todo Insérer le jeu via webGL-->
                     <div id="unity-container" class="unity-desktop">
