@@ -3,15 +3,15 @@ body {
     margin: 0
 }
 
-#unity-container {
-    /* position: absolute */
-}
+/* #unity-container {
+    position: absolute
+} */
 
-#unity-container.unity-desktop {
-    /* left: 50%;
+/* #unity-container.unity-desktop {
+    left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%) */
-}
+    transform: translate(-50%, -50%)
+} */
 
 #unity-container.unity-mobile {
     width: 100%;
