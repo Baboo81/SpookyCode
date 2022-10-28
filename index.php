@@ -58,6 +58,7 @@
                 </div>
                 <div class="spooky-game">
                     <!-- todo Insérer le jeu via webGL-->
+                    <!-- insérer inlude php login-->
                     
                 </div>
                 <div class="div-scores">

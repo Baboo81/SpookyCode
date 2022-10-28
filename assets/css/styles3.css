@@ -2,9 +2,18 @@
     --prune: #4F0851;
 
 }
+/** Concernant les fonts *********************/
 @font-face {
     font-family: 'scaryHalloween';
     src: url('../fonts/Scary Halloween Font.ttf');
+}
+@font-face {
+    font-family: 'Spooky Webbie';
+    src: url('../fonts/Spooky Webbie.ttf');
+}
+@font-face {
+    font-family: tombstone;
+    src: url(../fonts/Tombstone-Demo.otf);
 }
 /*~ PARTIE ZAHRA*****************************************************/
 /*& Concernant le HEADER */
@@ -65,16 +74,12 @@ ul li {
 }*/
 .ul-header li:hover{
      color: #ffa500;
-    text-decoration: underline; /*! Demander au filles si on le laisse */
     cursor: pointer;
 }
 /** PARTIE THAIS ****************************************************/
-@font-face {
-    font-family: 'Spooky Webbie';
-    src: url('../fonts/Spooky Webbie.ttf');
-}
 
-/*~ Concernant le container ***************/
+
+/*& Concernant le container ***************/
 .container{
     width: 100%;
 
@@ -83,10 +88,10 @@ ul li {
     flex-wrap: wrap;
     
 }
-/*~ Section présentation ******************/
+/*& Section présentation ******************/
 .presentation{
     width: 100%;
-    height: 60vh;
+    height: 80vh;
    
 
     display: flex;
@@ -97,7 +102,7 @@ ul li {
 
 .left-side{
     width: 40%;
-    height: 60vh;
+    height: 100%;
     top: 20vh;
     padding-left: 5%;
     
@@ -107,13 +112,26 @@ ul li {
     align-items: center;
 }
 
-.left-side > h2,p{
+.left-side h2,p{
     color: var(--prune);
     text-align: center;
+    
 }
-.left-side > h2{
+.left-side h2{
     font-weight: bold;
     font-family: Spooky Webbie;
+    font-size: 2rem;
+}
+.left-side p{
+    font-family: tombstone;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.btn-start{
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 /*& Concernant la partie right (img) */
 
@@ -123,6 +141,7 @@ ul li {
 }
 .right-side > img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 /*& Concernant le bouton start */
@@ -131,7 +150,7 @@ ul li {
     padding: 2%;
 }
 
-/*~ Game-section *************************/
+/*& Game-section *************************/
 
 .game-section{
     width: 100%;
@@ -153,7 +172,7 @@ ul li {
 }
 
 
-/*~ About the Fantomette POPUP ************/
+/*& About the Fantomette POPUP ************/
 .bg-popup{
     width: 100%;
     height: 100%;
@@ -203,7 +222,7 @@ ul li {
     align-self: center;
 }
 
-/*~ Concernant la section ABOUT US ********/
+/*& Concernant la section ABOUT US ********/
 .about-us{
     height: 100vh;
     width: 100%;
