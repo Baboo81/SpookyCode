@@ -2,12 +2,84 @@
     --prune: #4F0851;
 
 }
+/** Concernant les fonts *********************/
+@font-face {
+    font-family: 'scaryHalloween';
+    src: url('../fonts/Scary Halloween Font.ttf');
+}
 @font-face {
     font-family: 'Spooky Webbie';
     src: url('../fonts/Spooky Webbie.ttf');
 }
+@font-face {
+    font-family: tombstone;
+    src: url(../fonts/Tombstone-Demo.otf);
+}
+/*~ PARTIE ZAHRA*****************************************************/
+/*& Concernant le HEADER */
+header{
+    width: 100%;
+    height: 20vh;
+    background-color: #4F0851;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*flex-wrap: nowrap;*/
+}
+.img-logo{
+    width: 40%;
+}
 
-/*~ Concernant le container ***************/
+.menu-nav{
+    width: 60%;
+}
+
+#logo{
+    width: 80%;
+    object-fit: cover;
+    padding-left: 5%;
+    /*height: 10vh;
+    margin-left: 40px;*/
+
+}
+.ul-header{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    /* margin-left: 120px; */
+    font-size: 2rem;
+    color:white;
+}
+
+ul li {
+    list-style: none;   
+}
+
+.ul-header li{
+
+    /*margin: 15px;*/
+    /*width: 350px;*/
+    font-family: scaryHalloween;
+    padding-right: 7%;
+    /*font: size 1.5em;*/
+
+}
+/*.ul-header .jeu{
+    margin-left: 300px;
+    
+}*/
+.ul-header li:hover{
+     color: #ffa500;
+    cursor: pointer;
+}
+/** PARTIE THAIS ****************************************************/
+
+
+/*& Concernant le container ***************/
 .container{
     width: 100%;
 
@@ -16,10 +88,10 @@
     flex-wrap: wrap;
     
 }
-/*~ Section présentation ******************/
+/*& Section présentation ******************/
 .presentation{
     width: 100%;
-    height: 60vh;
+    height: 80vh;
    
 
     display: flex;
@@ -30,7 +102,7 @@
 
 .left-side{
     width: 40%;
-    height: 60vh;
+    height: 100%;
     top: 20vh;
     padding-left: 5%;
     
@@ -40,13 +112,26 @@
     align-items: center;
 }
 
-.left-side > h2,p{
+.left-side h2,p{
     color: var(--prune);
     text-align: center;
+    
 }
-.left-side > h2{
+.left-side h2{
     font-weight: bold;
     font-family: Spooky Webbie;
+    font-size: 2rem;
+}
+.left-side p{
+    font-family: tombstone;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.btn-start{
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 /*& Concernant la partie right (img) */
 
@@ -56,6 +141,7 @@
 }
 .right-side > img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 /*& Concernant le bouton start */
@@ -64,7 +150,7 @@
     padding: 2%;
 }
 
-/*~ Game-section *************************/
+/*& Game-section *************************/
 
 .game-section{
     width: 100%;
@@ -86,7 +172,7 @@
 }
 
 
-/*~ About the Fantomette POPUP ************/
+/*& About the Fantomette POPUP ************/
 .bg-popup{
     width: 100%;
     height: 100%;
@@ -124,8 +210,8 @@
 /*& Concernant la div où l'on insère le jeu */
 .spooky-game{
     border: white 2px solid;
-    width: 70%;
-    height: 60vh;
+    width: 960px;
+    height: 600px;
     align-self: center;
 }
 /*& Concernant la div d'affichage des scores*/
@@ -136,7 +222,7 @@
     align-self: center;
 }
 
-/*~ Concernant la section ABOUT US ********/
+/*& Concernant la section ABOUT US ********/
 .about-us{
     height: 100vh;
     width: 100%;
@@ -166,6 +252,26 @@
     justify-content: space-around;
 
 }
+.avat-popup{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 188, 132, 0.61);
+    position: absolute;
+    top: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.closeAvat{
+    color: var(--prune);
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    transform: rotate(45deg);
+}
 .avatar > div{
     width: 50%;
     border: solid 2px crimson;
@@ -176,7 +282,73 @@
     align-items: center;
 }
 .img-avatar{
-    width: 50px;
+    width: 70px;
     border-radius: 100%;
+<<<<<<< HEAD
+    border: solid 1px black;
+=======
     border: solid 2px black;
+}
+/*~ PARTIE ZAHRA *******************************************************/
+/*& Concernant le FOOTER */
+footer{
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color:#4F0851;
+    
+
+}
+.text-footer{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+}
+.mentions{
+    /* text-align: center; */
+    margin-left: 200px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hack{
+    /* display: inline; */
+    /*text-align: left;*/
+    margin-left:-50%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.image{
+    width: 7.5%;
+    object-fit: cover;
+    margin: 2%; 
+    
+}
+#logo-I3{
+    width: 100%;
+    object-fit: cover;
+}
+.social{
+    margin-right: 20px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+>>>>>>> d3d760bb9af80028f9636274e3b3dc9ebbef8de8
 }
