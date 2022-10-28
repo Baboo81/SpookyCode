@@ -13,11 +13,14 @@ public class FinalPoints : MonoBehaviour
     void Start()
     {
         pointsText.text = finalPoints.ToString();
+        Script.GetFinalPoints(finalPoints);
     }
 
     // Update is called once per frame
-    void Update()
+    public int GetScore()
     {
-        
+        return finalPoints;
     }
+
+    //MyGameInstance.SendMessage('pointsText', 'GetScore');
 }
