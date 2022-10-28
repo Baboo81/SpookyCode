@@ -83,16 +83,18 @@ include './views/header.php';
                         <div id="unity-fullscreen-button"></div>
                         <div id="unity-build-title">SpookyCode</div>
                     </div>
-                </div>
-                <!-- insérer inlude php login-->
-
+                </div>                
             </div>
             <div class="bottom-game">
+                <!-- insérer inlude php login-->
                 <?php
                     include "./views/login.php";
                 ?>
                 <div class="div-scores">
                     <!-- choper les scores depuis la db - PHP -->
+                    <?php
+                        include "./database/fonctionAddScore.php"
+                    ?>
                 </div>
             </div>
         </section>

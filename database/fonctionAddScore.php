@@ -1,6 +1,7 @@
 <?php
 
 include_once "pdo.php";
+// include_once "sendToDb.js";
 
 function addScore($pdo, $score, $name)
 {
@@ -38,3 +39,5 @@ $score = $_GET["score"];
 
 //print addScore($connexion, $score, $name);
 ?>
+
+<script src="/assets/script/sendToDb.js"></script>
