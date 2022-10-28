@@ -70,7 +70,12 @@
                         <h2>A propos de nous</h2>
                     </div>
                     <div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quasi consectetur dolor eaque rem amet in, eveniet reiciendis perspiciatis odit incidunt consequuntur mollitia nobis est vel corrupti beatae placeat omnis!</p>
+                        <p>Par ces quelques lignes, je vais vous présenter notre chouette équipe, notre équipe </p>
+                        <p>se compose de cinq membres venant de trois horizons différents.</p>
+                        <p>Nous avons tout d'abord: Alina à la réalisation du jeu, Coline à la création et la gestion</p>
+                        <p>de la base de donnée et pour la partie Web nous avons: Zahra, Thaïs et Chris.</p>
+                        <p>Grâce à une excellente  cohésion de groupe nous sommes parvenues à mettre sur pied</p>
+                        <p>en seulement trois jours un site web servant de support au jeu Spooky Code.</p>
                     </div>
                     <div class="avatar">
                         <div>
