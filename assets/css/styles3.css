@@ -210,8 +210,8 @@ ul li {
 /*& Concernant la div où l'on insère le jeu */
 .spooky-game{
     border: white 2px solid;
-    width: 70%;
-    height: 60vh;
+    width: 960px;
+    height: 600px;
     align-self: center;
 }
 /*& Concernant la div d'affichage des scores*/

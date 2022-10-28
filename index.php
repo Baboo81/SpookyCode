@@ -13,9 +13,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/reset.css">
-        <!-- <link rel="stylesheet" href="./assets/css/styles1.css"> -->
-        
         <link rel="stylesheet" href="./assets/css/styles3.css">
+        <link rel="shortcut icon" href="TemplateData/favicon.ico">
+        <link rel="stylesheet" href="./views/TemplateData/style.css">
         <title>HomePage</title>
     </head>
 
@@ -43,9 +43,9 @@
                         <p>Les points du joueur seront sauvegardés dans un tableau des scores,</p>
                         <p>Les scores figurants dans ce tableau seront les meilleurs scores de chaques joueurs.</p>
                     </div>
-                    <div class="btn-start">
-                        <button>Start</button>
-                    </div>
+                    <!-- <div class="btn-start">
+                        <button id="btn-start">Start</button>
+                    </div> -->
                     
                 </div>
                 <div class="right-side">
@@ -58,6 +58,21 @@
                 </div>
                 <div class="spooky-game">
                     <!-- todo Insérer le jeu via webGL-->
+                    <div id="unity-container" class="unity-desktop">
+                        <canvas id="unity-canvas" width=960 height=600></canvas>
+                        <div id="unity-loading-bar">
+                            <div id="unity-logo"></div>
+                            <div id="unity-progress-bar-empty">
+                                <div id="unity-progress-bar-full"></div>
+                            </div>
+                        </div>
+                        <div id="unity-warning"> </div>
+                        <div id="unity-footer">
+                            <div id="unity-webgl-logo"></div>
+                            <div id="unity-fullscreen-button"></div>
+                            <div id="unity-build-title">SpookyCode</div>
+                        </div>
+                    </div>
                     <!-- insérer inlude php login-->
                     
                 </div>
@@ -134,5 +149,6 @@
             ?>
     <script src="./assets/script/fantomette.js"></script>
     <script src="./assets/script/avatars.js"></script>
+    <script src="./assets/script/script_unity.js"></script>
     </body>
 </html>
