@@ -12,8 +12,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/styles1.css">
-        <link rel="stylesheet" href="./assets/css/styles2.css">
+        
         <link rel="stylesheet" href="./assets/css/styles3.css">
         <title>HomePage</title>
     </head>
@@ -59,7 +60,51 @@
                     <!-- todo Insérer le jeu via webGL-->
                     
                 </div>
-            </section>   
+                <div class="div-scores">
+                    <!-- choper les scores depuis la db - PHP -->
+                </div>
+            </section> 
+            <section class="about-us">
+                <div class="left-side-bis">
+                    <div>
+                        <h2>A propos de nous</h2>
+                    </div>
+                    <div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quasi consectetur dolor eaque rem amet in, eveniet reiciendis perspiciatis odit incidunt consequuntur mollitia nobis est vel corrupti beatae placeat omnis!</p>
+                    </div>
+                    <div class="avatar">
+                        <div>
+                            <div>
+                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarAlina" title="Alina L.">
+                            
+                            </div>
+                            <div>
+                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarColine" title="Coline P.">
+                           
+                            </div>
+                            <div>
+                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarZahra" title="Zahra C.">
+                            
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarChristel" title="Christel P.">
+                            
+                            </div>
+                            <div>
+                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarThais" title="Thaïs S.">
+                            
+                            </div>
+                        </div>    
+                            
+                    </div>
+                </div>
+                <div class="right-side">
+                    <img src="./assets/img/spookyDecor-Recovered.png" alt="">
+                </div>
+
+            </section>  
             
         <!-- Zone POPUP -->
         <div class="bg-popup">

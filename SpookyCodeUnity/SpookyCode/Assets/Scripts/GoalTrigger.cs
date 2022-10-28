@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class GoalTrigger : MonoBehaviour
 {
-    private Character character;
+    public Character character;
     void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {
             character.points += 10;
             SceneManager.LoadScene("Win");
-            Cursor.lockState = CursorLockMode.None;
+            //Cursor.lockState = CursorLockMode.None;
 
         }
     } 

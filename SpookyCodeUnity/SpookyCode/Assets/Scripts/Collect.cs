@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Collect : MonoBehaviour
 {
-    //public AudioSource m_MyAudioSource;
+    public AudioSource m_MyAudioSource;
     
     void OnTriggerEnter(Collider other)
     {
         if ( other.gameObject.CompareTag("Player"))
         {
             PickUp(other.GetComponent<Character>());
-            //m_MyAudioSource.Play();
+            m_MyAudioSource.Play();
         }
     }
     void PickUp(Character character) {
