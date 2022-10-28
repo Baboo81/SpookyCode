@@ -284,9 +284,6 @@ ul li {
 .img-avatar{
     width: 70px;
     border-radius: 100%;
-<<<<<<< HEAD
-    border: solid 1px black;
-=======
     border: solid 2px black;
 }
 /*~ PARTIE ZAHRA *******************************************************/
@@ -350,5 +347,4 @@ a{
     height: 30px;
     margin-left: 10px;
     cursor: pointer;
->>>>>>> d3d760bb9af80028f9636274e3b3dc9ebbef8de8
 }
