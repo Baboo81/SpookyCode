@@ -214,13 +214,22 @@ ul li {
     height: 600px;
     align-self: center;
 }
+.bottom-game{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
 /*& Concernant le login **************/
 form{
     /* text-align: center; */
     padding-top: 2%;
+    padding-left: 5%;
+
 }
 input{
-    width: 20%;
+    width: 50%;
     height: 35%;
 }
 .login{
@@ -231,8 +240,8 @@ input{
 /*& Concernant la div d'affichage des scores*/
 .div-scores{
     width: 60%;
-    height: 30vh;
-    border: solid 2px white;
+    height: 15vh;
+    /* border: solid 2px white; */
     align-self: flex-end;
 }
 

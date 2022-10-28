@@ -79,11 +79,13 @@ include './views/header.php';
                 <!-- insérer inlude php login-->
 
             </div>
-            <?php
-            include "./views/login.php";
-            ?>
-            <div class="div-scores">
-                <!-- choper les scores depuis la db - PHP -->
+            <div class="bottom-game">
+                <?php
+                    include "./views/login.php";
+                ?>
+                <div class="div-scores">
+                    <!-- choper les scores depuis la db - PHP -->
+                </div>
             </div>
         </section>
         <section class="about-us">
