@@ -2,6 +2,10 @@
 *{ 
 	box-sizing: border-box; 
 }
+@font-face {
+    font-family: 'halloween1';
+    src: url('../fonts/CFHalloween-Regular.ttf');
+}
 /*& Concernant le HEADER */
 header{
     width: 100%;
@@ -49,7 +53,7 @@ ul li {
 
     /*margin: 15px;*/
     /*width: 350px;*/
-    font-family: Scary Halloween Font;
+    font-family:scary halloween font;
     padding-right: 7%;
     /*font: size 1.5em;*/
 
