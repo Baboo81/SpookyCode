@@ -2,7 +2,7 @@
     
     include './views/header.php';
     
-    include './views/footer.php';
+   
 
 ?>
 
@@ -114,7 +114,11 @@
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consectetur enim facilis est, velit dolores explicabo temporibus consequuntur distinctio dolorem voluptatem. Maxime eius corrupti, a vero veritatis aspernatur sunt. Illo. </p>
             </div>
+           
         </main>
+        <?php
+                include './views/footer.php';
+            ?>
     <script src="./assets/script/fantomette.js"></script>
     </body>
 </html>
