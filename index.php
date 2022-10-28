@@ -80,25 +80,25 @@
                     <div class="avatar">
                         <div>
                             <div>
-                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarAlina" title="Alina L.">
+                                <img id="allina" class="img-avatar" src="./assets/img/avatarAllina.png" alt="avatarAlina" title="Alina L.">
                             
                             </div>
                             <div>
-                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarColine" title="Coline P.">
+                                <img id="colline" class="img-avatar" src="./assets/img/avatarColine.png" alt="avatarColine" title="Coline P.">
                            
                             </div>
                             <div>
-                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarZahra" title="Zahra C.">
+                                <img id="zahra" class="img-avatar" src="./assets/img/avatarZahra.png" alt="avatarZahra" title="Zahra C.">
                             
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarChristel" title="Christel P.">
+                                <img id="chris" class="img-avatar" src="./assets/img/avatarChris.png" alt="avatarChristel" title="Christel P.">
                             
                             </div>
                             <div>
-                                <img class="img-avatar" src="./assets/img/capture.png" alt="avatarThais" title="Thaïs S.">
+                                <img id="thais" class="img-avatar" src="./assets/img/avatarThais.png" alt="avatarThais" title="Thaïs S.">
                             
                             </div>
                         </div>    
@@ -119,11 +119,19 @@
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consectetur enim facilis est, velit dolores explicabo temporibus consequuntur distinctio dolorem voluptatem. Maxime eius corrupti, a vero veritatis aspernatur sunt. Illo. </p>
             </div>
-           
+        </div>
+        <div class="avat-popup">
+            <div class="content-popup">
+                <div id="closeAvat" class="closeAvat">+</div>
+                 <h2>Allina Levchenko</h2>
+                 <h3>Allina@gmail.com</h3>
+
+            </div>   
         </main>
         <?php
                 include './views/footer.php';
             ?>
     <script src="./assets/script/fantomette.js"></script>
+    <script src="./assets/script/avatars.js"></script>
     </body>
 </html>
