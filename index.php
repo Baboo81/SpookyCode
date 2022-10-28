@@ -5,73 +5,50 @@ include './views/header.php';
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/styles3.css">
-        <link rel="shortcut icon" href="TemplateData/favicon.ico">
-        <link rel="stylesheet" href="./views/TemplateData/style.css">
-        <title>HomePage</title>
-    </head>
 
-    <body>
-        <!-- Main contient tout ce qu'il y aura dans le body-->
-        <main class="container"> 
-            <section class="presentation"> <!--Zone règles du jeu-->
-                <div class="left-side">
-                    <div>
-                        <h2>Présentation :</h2>
-                    </div>
-                    <div>
-                        <p>Dans le cadre du hackathon 2022, les différentes promotions; WAD, GAME et WEB du centre de formation Interface3 se sont</p>
-                        <p>associées en 7 équipes pour créer un site présentant un jeu.</p>
-                        <p>Le hackaton se déroule sur trois jours, les collaborateurs de chaque groupes devront interagir de façon éfficace</p>
-                        <p>et exploiter au mieux les connaissances de tout un chacun.</p>
-                    </div>
-                    <div>
-                        <h2>Règles du jeu :</h2>
-                    </div>
-                    <div>
-                        <p>Le jeu se déroule sur une map 3D, le joueur contrôle un personnage (Fantomette).</p>
-                        <p>Dans chaque niveau, le joueur doit trouver les instructions de code</p>
-                        <p>et les completer afin d'évoluer dans le jeu</p>
-                        <p>Les points du joueur seront sauvegardés dans un tableau des scores,</p>
-                        <p>les scores figurants dans ce tableau seront les meilleurs scores de chaques joueurs.</p>
-                    </div>
-                    <!-- <div class="btn-start">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style_unity.css">
+    <link rel="stylesheet" href="./assets/css/styles3.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+
+    <title>HomePage</title>
+</head>
+
+<body>
+    <!-- Main contient tout ce qu'il y aura dans le body-->
+    <main class="container">
+        <section class="presentation">
+            <!--Zone règles du jeu-->
+            <div class="left-side">
+                <div>
+                    <h2>Présentation :</h2>
+                </div>
+                <div>
+                    <p>Dans le cadre du hackathon 2022, les différentes promotions; WAD, GAME et WEB du centre de formation Interface3 se sont</p>
+                    <p>associées en 7 équipes pour créer un site présentant un jeu.</p>
+                    <p>Le hackaton se déroule sur trois jours, les collaborateurs de chaque groupes devront interagir de façon éfficace</p>
+                    <p>et exploiter au mieux les connaissances de tout un chacun.</p>
+                </div>
+                <div>
+                    <h2>Règles du jeu :</h2>
+                </div>
+                <div>
+                    <p>Le jeu se déroule sur une map 3D, le joueur contrôle un personnage (Fantomette).</p>
+                    <p>Dans chaque niveau, le joueur doit trouver les instructions de code</p>
+                    <p>et les completer afin d'évoluer dans le jeu</p>
+                    <p>Les points du joueur seront sauvegardés dans un tableau des scores,</p>
+                    <p>les scores figurants dans ce tableau seront les meilleurs scores de chaques joueurs.</p>
+                </div>
+                <!-- <div class="btn-start">
                         <button id="btn-start">Start</button>
                     </div> -->
-                    
-                </div>
-                
-                <div class="spooky-game">
-                    <!-- todo Insérer le jeu via webGL-->
-                    <div id="unity-container" class="unity-desktop">
-                        <canvas id="unity-canvas" width=960 height=600></canvas>
-                        <div id="unity-loading-bar">
-                            <div id="unity-logo"></div>
-                            <div id="unity-progress-bar-empty">
-                                <div id="unity-progress-bar-full"></div>
-                            </div>
-                        </div>
-                        <div id="unity-warning"> </div>
-                        <div id="unity-footer">
-                            <div id="unity-webgl-logo"></div>
-                            <div id="unity-fullscreen-button"></div>
-                            <div id="unity-build-title">SpookyCode</div>
-                        </div>
-                    </div>
-                    <!-- insérer inlude php login-->
-                    
-                </div>
-                <div class="btn-start" id="btn-start">
-                    <!-- rajouté id - Coline -->
-                    <button>Start</button>
-                </div>
 
             </div>
+
             <div class="right-side">
                 <img src="./assets/img/spookyDecor-Recovered.png" alt="decor">
             </div>
@@ -84,9 +61,25 @@ include './views/header.php';
             </div>
             <div class="spooky-game">
                 <!-- todo Insérer le jeu via webGL-->
+                <div id="unity-container" class="unity-desktop">
+                    <canvas id="unity-canvas" width=960 height=600></canvas>
+                    <div id="unity-loading-bar">
+                        <div id="unity-logo"></div>
+                        <div id="unity-progress-bar-empty">
+                            <div id="unity-progress-bar-full"></div>
+                        </div>
+                    </div>
+                    <div id="unity-warning"> </div>
+                    <div id="unity-footer">
+                        <div id="unity-webgl-logo"></div>
+                        <div id="unity-fullscreen-button"></div>
+                        <div id="unity-build-title">SpookyCode</div>
+                    </div>
+                </div>
+                <!-- insérer inlude php login-->
 
             </div>
-            <?php 
+            <?php
             include "./views/login.php";
             ?>
             <div class="div-scores">
@@ -111,68 +104,65 @@ include './views/header.php';
                         <div>
                             <div>
                                 <img id="allina" class="img-avatar" src="./assets/img/avatarAllina.png" alt="avatarAlina" title="Alina L.">
-                            
+
                             </div>
                             <div>
                                 <img id="colline" class="img-avatar" src="./assets/img/avatarColine.png" alt="avatarColine" title="Coline P.">
-                           
+
                             </div>
                             <div>
                                 <img id="zahra" class="img-avatar" src="./assets/img/avatarZahra.png" alt="avatarZahra" title="Zahra C.">
-                            
+
                             </div>
                         </div>
                         <div>
                             <div>
                                 <img id="chris" class="img-avatar" src="./assets/img/avatarChris.png" alt="avatarChristel" title="Christel P.">
-                            
+
                             </div>
                             <div>
                                 <img id="thais" class="img-avatar" src="./assets/img/avatarThais.png" alt="avatarThais" title="Thaïs S.">
-                            
+
                             </div>
-                        </div>    
-                            
+                        </div>
+
                     </div>
                 </div>
-                <div class="right-side">
-                    <img src="./assets/img/spookyDecor-Recovered.png" alt="">
+
+                <!-- Zone POPUP -->
+                <div class="bg-popup">
+                    <div class="content-popup">
+                        <div id="close" class="close">+</div>
+                        <h3>Besoin d'un coup de pouce ? Fantomette est là !</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consectetur enim facilis est, velit dolores explicabo temporibus consequuntur distinctio dolorem voluptatem. Maxime eius corrupti, a vero veritatis aspernatur sunt. Illo. </p>
+                    </div>
                 </div>
-
-        <!-- Zone POPUP -->
-        <div class="bg-popup">
-            <div class="content-popup">
-                <div id="close" class="close">+</div>
-                <h3>Besoin d'un coup de pouce ? Fantomette est là !</h3>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consectetur enim facilis est, velit dolores explicabo temporibus consequuntur distinctio dolorem voluptatem. Maxime eius corrupti, a vero veritatis aspernatur sunt. Illo. </p>
             </div>
+            <div class="right-side">
+                <img src="./assets/img/spookyDecor-Recovered.png" alt="">
+            </div>
+        </section>
 
+
+        <div class="avat-popup">
+            <div class="content-popup">
+                <div id="closeAvat" class="closeAvat">+</div>
+                <h2>Allina Levchenko</h2>
+                <h3>Allina@gmail.com</h3>
+
+            </div>
+        </div>
     </main>
     <?php
     include './views/footer.php';
     ?>
-
-
-
-</div>
-<div class="avat-popup">
-    <div class="content-popup">
-        <div id="closeAvat" class="closeAvat">+</div>
-        <h2>Allina Levchenko</h2>
-        <h3>Allina@gmail.com</h3>
-        
-    </div>   
-</main>
-<?php
-                include './views/footer.php';
-                ?>
-    <script src="./assets/script/fantomette.js"></script>
     <!-- <script src="./PlayButtonEvent.js"></script> -->
-    
+
     <script src="./assets/script/sendToDb.js"></script>
     <script src="./assets/script/fantomette.js"></script>
     <script src="./assets/script/avatars.js"></script>
     <script src="./assets/script/script_unity.js"></script>
-    </body>
+</body>
+
 </html>
