@@ -50,6 +50,7 @@ ul li {
     /*margin: 15px;*/
     /*width: 350px;*/
     font-family: Scary Halloween Font;
+
     padding-right: 7%;
     /*font: size 1.5em;*/
 
@@ -65,7 +66,7 @@ ul li {
 }
 /*& Concernant le FOOTER */
 footer{
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
 
@@ -86,7 +87,7 @@ footer{
     align-items: center;
 }
 .mentions{
-    text-align: center;
+    /* text-align: center; */
     margin-left: 200px;
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -95,31 +96,28 @@ footer{
 }
 
 .hack{
-    display: inline;
-    /*text-align: left;
-    margin-left: 40px;
+    /* display: inline; */
+    /*text-align: left;*/
+    margin-left:-50%;
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;*/
+    font-size: 20px;
 }
 a{
     text-decoration: none;
 }
 .image{
-    /*width: 100px;
-    height: 100px;
-    margin: 40px;*/
-    width: 8%;
-    /*object-fit: cover;*/
-    padding-left: 2%; /*! debuguer le paragraphe qui n'appareit pas */
-    padding-top: 2%;
+    width: 7.5%;
+    object-fit: cover;
+    margin: 2%; 
+    
 }
 #logo-I3{
     width: 100%;
     object-fit: cover;
 }
 .social{
-    margin-left: 650px;
+    margin-right: 20px;
 }
 .icon{
     width: 30px;
