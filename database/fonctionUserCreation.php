@@ -28,11 +28,12 @@ function userCreation($pdo, $userName)
         $logFile = "./error.log";
 
         // Enregistrement du message d'erreur dans le fichier log. 3 pour signifier inscription dans le fichier.
-        error_log($errorMessage, 3, $logFile);
+        error_log($errorMessage."\r\n", 3, $logFile);
 
         die();
     }
 }
+
 $name = $_GET["Name"];
-print userCreation($connexion, $name);
+//print userCreation($connexion, $name);
 ?>
